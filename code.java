@@ -1,7 +1,7 @@
 public class Main {
 
   public static void main(String[] args) {
-    int rows = 7, k = 0;
+    int rows = 7, k = 1;
 
     for (int i = 1; i <= rows; ++i, k = 0) {
       for (int space = 1; space <= rows - i; ++space) {
